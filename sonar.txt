@@ -1,0 +1,16 @@
+
+Run the following command in the project folder:
+   >mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=vkrishnanb-chainsys_bestPractices
+--------------------
+User cache: C:\Users\Chainsys\.sonar\cache
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184:sonar (default-cli) on project bestPractices: Project not found. Please check the 'sonar.projectKey' and 'sonar.organization' properties, the 'SONAR_TOKEN' environment variable, or contact the project administrator -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Project not found. 
+Please check the 'sonar.projectKey' and 'sonar.organization' properties, 
+the 'SONAR_TOKEN' environment variable, or contact the project administrator
